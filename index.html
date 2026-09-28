@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>QCM Ondes Électromagnétiques</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body);"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 20mm;
+      color: #222;
+      font-size: 13px;
+    }
+    h1 {
+      text-align: center;
+      color: #1a365d;
+      border-bottom: 2px solid #1a365d;
+      padding-bottom: 8px;
+      font-size: 20px;
+    }
+    .compteur {
+      background-color: #edf2f7;
+      border-left: 4px solid #3182ce;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    h2 {
+      color: #2b6cb0;
+      border-bottom: 1px solid #cbd5e0;
+      padding-bottom: 4px;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .question {
+      margin-bottom: 14px;
+      page-break-inside: avoid;
+    }
+    .q-title {
+      font-weight: bold;
+    }
+    .type {
+      color: #718096;
+      font-style: italic;
+      font-weight: normal;
+    }
+    ul {
+      margin: 4px 0 0 20px;
+      padding: 0;
+    }
+    li {
+      color: #276749;
+      font-weight: 600;
+    }
+    .calcul {
+      color: #4a5568;
+      font-size: 12px;
+      margin: 2px 0 0 20px;
+      font-style: italic;
+    }
+    @media print {
+      body { margin: 15mm; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>QCM Ondes Électromagnétiques — Corrigé thématique</h1>
+
+  <div class="compteur">
+    Questions totales traitées : 80<br>
+    Questions uniques retenues : 30
+  </div>
+
+  <h2>1. Définitions et caractéristiques générales des OEM</h2>
+
+  <div class="question">
+    <div class="q-title">1. Qu'est-ce qu'une OEM ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Une onde électromagnétique est une catégorie d'ondes qui peut se déplacer dans un milieu de propagation comme le vide ou l'air.</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">2. De quoi est composé le champ électromagnétique ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Champs électrique et magnétique</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">3. Une onde électromagnétique est une catégorie d'ondes qui peut se déplacer dans un milieu de propagation, avec une vitesse avoisinant celle de la lumière, soit près de 300 000 kilomètres par seconde dans le vide ou dans l'air. Ces ondes sont par exemple produites par des charges électriques en mouvement. Elles correspondent aux oscillations couplées d'un champ électrique et d'un champ magnétique, dont les amplitudes varient de façon sinusoïdale au cours du temps <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Vrai</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">4. Quels sont les deux grandeurs qui caractérisent une onde électromagnétique ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>fréquence et longueur d'onde</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">5. Comment est le vecteur propagation d'une onde électromagnétique ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Perpendiculaire</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">6. Une onde a une pulsation \(\omega = 20\pi\text{ rad}\cdot\text{s}^{-1}\). Sa période est donc \(T = 100\text{ ms}\) <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Calcul : \(T = 2\pi / \omega = 2\pi / 20\pi = 0,1\text{ s} = 100\text{ ms}\)</div>
+    <ul><li>Vrai</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">7. Intensité d'une OEM: parmi les propositions suivantes, indiquez celles qui sont correctes. <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul>
+      <li>On appelle intensité lumineuse I de l'onde, le module au carré de son champ électrique, en représentation complexe</li>
+      <li>Pour une Onde Plane Progressive Monochromatique: \(I = E.E^* = |E_0|^2\) où \(E_0\) est le module du champ électrique</li>
+      <li>D'une façon beaucoup plus générale, l'intensité que peut mesurer un détecteur est la valeur moyenne de l'intensité de l'onde prise sur le temps de réponse du détecteur, soit \(I = \langle E E^* \rangle = \frac{1}{2} |E_0|^2\)</li>
+    </ul>
+  </div>
+
+  <h2>2. Spectre électromagnétique et énergie des photons</h2>
+
+  <div class="question">
+    <div class="q-title">8. Comment s'appelle le classement des OEM en fonction de leur fréquence ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Le spectre électromagnétique</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">9. Quels sont les deux extrémités du spectre des ondes électromagnétiques ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Basses fréquences et rayons gamma</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">10. Dans quelle zone se situent approximativement les longueurs d'onde visibles par l'oeil ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>400-700 nanomètres</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">11. Quels sont les deux types d'ondes électromagnétiques qui entourent la lumière visible dans le spectre ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Les ultraviolets et les infrarouges</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">12. Quelles ondes ont une fréquence supérieure à celle de la lumière visible ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Les ultraviolets et les rayons X</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">13. Quelle couleur prend un laser hélium-néon à une longueur d'onde 632,8 nm ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Rouge</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">14. Combien d'oscillations par seconde les ondes radiofréquences (ou radioélectriques) produisent-elles, aux plus hautes fréquences ? <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Note : frontière EHF à \(300\text{ GHz} = 300\text{ milliards}\) d'oscillations par seconde (ou \(10^{11}\) / 100 milliards selon le découpage retenu).</div>
+    <ul><li>300 milliards (ou \(10^{11}\) / 100 milliards)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">15. On détecte un photon d'énergie \(10^{-2}\text{ eV}\). Quelle est la fréquence de l'onde correspondante ? <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Calcul : \(\nu = E / h = (10^{-2} \times 1,602 \times 10^{-19}\text{ J}) / (6,62 \times 10^{-34}\text{ J}\cdot\text{s}) \approx 2,42 \times 10^{12}\text{ Hz}\)</div>
+    <ul><li>\(2,42 \times 10^{12}\text{ Hz}\)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">16. Quelle est l'énergie en UI (unités internationales, système MKSA) d'un rayonnement de fréquence \(3 \times 10^{19}\text{ Hz}\) ? <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Calcul : \(E = h \cdot \nu = 6,62 \times 10^{-34} \times 3 \times 10^{19} = 1,986 \times 10^{-14}\text{ J}\)</div>
+    <ul><li>\(1,98 \times 10^{-14}\text{ J}\)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">17. Quelle est la longueur d'onde d'un rayonnement de fréquence \(3 \times 10^{19}\text{ Hz}\) ? <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Calcul : \(\lambda = c / \nu = (3 \times 10^8\text{ m}\cdot\text{s}^{-1}) / (3 \times 10^{19}\text{ s}^{-1}) = 10^{-11}\text{ m}\)</div>
+    <ul><li>\(10^{-11}\text{ m}\)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">18. Dans quelle gamme se situe un rayonnement de fréquence \(3 \times 10^{18}\text{ Hz}\) et de longueur d'onde \(\lambda = 10^{-10}\text{ m}\) ? <span class="type">(1 seule réponse possible)</span></div>
+    <div class="calcul">Note : \(\lambda = 10^{-10}\text{ m} = 0,1\text{ nm}\) (soit \(1\text{ Å}\)), ce qui caractérise le domaine des rayons X.</div>
+    <ul><li>Un rayon X</li></ul>
+  </div>
+
+  <h2>3. Vitesse de propagation et milieux matériels</h2>
+
+  <div class="question">
+    <div class="q-title">19. Quelle est la vitesse de propagation des ondes électromagnétiques dans le vide ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>b. \(299~792~458\text{ m/s}\)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">20. De quoi dépend la vitesse de propagation d'une onde ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Du milieu de propagation</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">21. Dans un milieu transparent, la célérité est variable: elle dépend de la nature chimique du milieu mais aussi de paramètre physiques tels que la température, la pression, la densité.... Chaque milieux transparent est caractérisé par son indice de réfraction n qui dépend parfois de la fréquence, et qui permet d'exprimer la célérité dans le milieu. On a alors (cochez la bonne réponse) : <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul>
+      <li>\( n = c_{\text{vide}} / c_{\text{milieu}} \)</li>
+      <li>\( c_{\text{milieu}} = c_{\text{vide}} / n \)</li>
+    </ul>
+  </div>
+
+  <h2>4. Modélisation, optique et principes de propagation</h2>
+
+  <div class="question">
+    <div class="q-title">22. Comment peut-on modéliser la lumière ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Les deux</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">23. Soit \(\lambda\), la longueur d'onde d'une onde électromagnétique, et \(D\), la dimension caractéristique d'un obstacle devant cette onde. Quelle inégalité faut-il respecter pour être dans le cadre de l'optique géométrique ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>\(\lambda \ll D\)</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">24. Which of the following describes Huygen's Principle? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Every point on a wavefront acts as a source of lots of secondary spherical wavelets, which can therefore interfere with each other.</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">25. Parmi les propositions ci-dessous, indiquer celles qui sont vraies.... <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul>
+      <li>D'après le principe d'Huygens-Fresnel, chaque point d'une surface atteinte par une onde incidente se comporte comme une source secondaire ponctuelle.</li>
+      <li>D'après le principe de Huyghens, « les points d'égale perturbation lumineuse forment un ensemble appelé surface d'onde. Chacun de ces points se comporte comme une source secondaire qui émet des ondelettes sphériques si le milieu est isotrope. L'enveloppe de ces ondelettes forme une nouvelle surface d'onde. »</li>
+      <li>D'après le principe d'Huygens-Fresnel, les sources secondaires émettent des ondes cohérentes entre elles.</li>
+      <li>Le principe de Huygens est un principe utilisé en optique il permet entre autres de calculer l'intensité dans les phénomènes de diffraction et d'interférence.</li>
+    </ul>
+  </div>
+
+  <h2>5. Polarisation</h2>
+
+  <div class="question">
+    <div class="q-title">26. Comment définit-on la lumière qui ne vibre que sur un plan ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>Polarisée</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">27. Quel(s) type(s) de polarisation parmi ceux proposés n'existe(nt) pas ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>triangulaire</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">28. Parmi ces propriétés, laquelle (lesquelles) n'est (ne sont) pas un effet que peut subir la polarisation ? <span class="type">(plusieurs réponses possibles)</span></div>
+    <ul><li>manifestation thermique</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">29. Quels propriétés de la polarisation sont utilisés par les radars ? <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Effet Dopler - Réflectivité</li></ul>
+  </div>
+
+  <div class="question">
+    <div class="q-title">30. Étudier la polarisation d'une onde électromagnétique, c'est étudier la trajectoire décrite par l'extrémité du vecteur E <span class="type">(1 seule réponse possible)</span></div>
+    <ul><li>Vrai</li></ul>
+  </div>
+
+</body>
+</html>
